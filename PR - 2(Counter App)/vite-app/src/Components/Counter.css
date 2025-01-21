@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1{
+  color: #fdfcfc;
+  text-align: center;
+  border: 2px solid #fff;
+  padding: 5px;
+  }
+  
+  .counter {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    margin-top: 50px;
+  }
+  
+  .count {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fcfcfc;
+    margin-bottom: 15px;
+  }
+  
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(255, 75, 43, 0.75);
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    outline: none;
+  }
+  
+  .increment-btn {
+    background: linear-gradient(45deg, #fcfbfb, #042857);
+    box-shadow: 0 4px 15px rgba(37, 179, 245, 0.75); 
+  }
+  
+  .increment-btn:hover {
+    box-shadow: 0 5px 20px rgba(255, 61, 0, 1);
+  }
+  
+  .increment-btn:active {
+    box-shadow: 0 3px 10px rgba(255, 61, 0, 0.5);
+  }
+  
+  .decrement-btn {
+    background: linear-gradient(45deg, #fcfbfb,  #042857); 
+    box-shadow: 0 4px 15px rgba(37, 179, 245, 0.75);
+  }
+
+   .decrement-btn:disabled{
+    background: linear-gradient(45deg, #fcfbfb, #585858); 
+    box-shadow: 0 4px 15px rgba(37, 179, 245, 0.75);
+    color: #7c7c7c;
+   }
+
+  .reset-btn {
+    background: linear-gradient(45deg, #fcfbfb, #042857);
+    box-shadow: 0 4px 15px rgba(37, 179, 245, 0.75);  
+  }
+  
+  .reset-btn:hover {
+    box-shadow: 0 5px 20px rgba(255, 61, 0, 1);
+  }
+  
+  .reset-btn:active {
+    box-shadow: 0 3px 10px rgba(255, 61, 0, 0.5);
+  }
+  
