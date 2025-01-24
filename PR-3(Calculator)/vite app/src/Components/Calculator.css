@@ -24,11 +24,7 @@ body {
     border: none;
     cursor: pointer;
   }
-  
-  button:hover {
-    background-color: rgb(60, 60, 60);
-  }
-  
+
   .counter {
     width: 350px;
     height: 500px;
@@ -51,20 +47,32 @@ body {
   }
   
   .flex1 button:nth-child(1) {
-    color: antiquewhite;
-    background-color: rgb(68, 68, 68);
+    color: red;
+    background-color: rgb(83, 44, 44);
   }
   
-  .flex1 button:nth-child(2),
-  .flex1 button:nth-child(3),
   .flex1 button:nth-child(4),
   .flex2 button:nth-child(4),
-  .flex3 button:nth-child(4) {
+  .flex3 button:nth-child(4),
+  .flex4 button:nth-child(4) {
     background-color: purple;
   }
   
-  .flex4 button:nth-child(4) {
+  .flex5 button:nth-child(4) {
     color: antiquewhite;
-    background-color: rgb(68, 68, 68);
+    background-color: rgb(250, 173, 7);
   }
+  
+  .flex5 button {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
   
