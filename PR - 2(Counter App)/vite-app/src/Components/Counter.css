@@ -71,7 +71,7 @@ body {
    .decrement-btn:disabled{
     background: linear-gradient(45deg, #fcfbfb, #042857); 
     box-shadow: 0 4px 15px rgba(37, 179, 245, 0.75);
-    color: #7c7c7c;
+    color: #0e0d0d;
    }
 
   .reset-btn {

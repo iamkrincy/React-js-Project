@@ -1,0 +1,70 @@
+body {
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .calc {
+    padding-top: 20px;
+  }
+  
+  button {
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(60, 60, 60);
+  }
+  
+  .counter {
+    width: 350px;
+    height: 500px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .display {
+    height: 60px;
+    background-color: #333;
+    color: #fff;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .flex1 button:nth-child(1) {
+    color: antiquewhite;
+    background-color: rgb(68, 68, 68);
+  }
+  
+  .flex1 button:nth-child(2),
+  .flex1 button:nth-child(3),
+  .flex1 button:nth-child(4),
+  .flex2 button:nth-child(4),
+  .flex3 button:nth-child(4) {
+    background-color: purple;
+  }
+  
+  .flex4 button:nth-child(4) {
+    color: antiquewhite;
+    background-color: rgb(68, 68, 68);
+  }
+  
