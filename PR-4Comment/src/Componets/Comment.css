@@ -148,11 +148,10 @@ button:hover {
     color: floralwhite;
     padding: 5px;
     text-align: left;
-    min-width: 300px; /* Ensure there's enough space for text */
-    word-wrap: break-word; /* Handle long words properly */
-    white-space: normal; /* Allow text to break normally, no scrolling */
+    min-width: 300px; 
+    word-wrap: break-word; 
+    white-space: normal; 
 }
-
 
 .review .star-rating {
     display: flex;
